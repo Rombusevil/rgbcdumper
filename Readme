@@ -1,5 +1,14 @@
+"Rombus Game Boy camera dumper" extracts bmp photos from gb camera .sav files. 
+It supports thumbnails and full size photos. It's a CLI software intended to run under GNU/Linux environments 
+but as it uses only standard libraries it should run under other systems.
+
+Fun fact: It does not have a validation that will prevent you for dumping pictures out of any binary aside gb 
+camera .sav files. So if you ever wondered how mp3 (or any other binary) files would look like interpreted as 
+images, you can try that out. 
+
+At the moment it doesn't support game-faces nor music sheets.
+
 For compiling you need gcc and just open a terminal in this directory and type:
-  $make
-To get instructions on how to use the program run:
-  $./rgbcdumper 
-after doing the previous step.
+  make
+  
+To get instructions on how to use the program run it without parameters.
