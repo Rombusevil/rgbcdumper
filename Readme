@@ -1,0 +1,5 @@
+For compiling you need gcc and just open a terminal in this directory and type:
+  $make
+To get instructions on how to use the program run:
+  $./rgbcdumper 
+after doing the previous step.
